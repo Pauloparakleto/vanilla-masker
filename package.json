@@ -6,7 +6,7 @@
   "scripts": {
     "start": "grunt dev",
     "build": "grunt build",
-    "test": "grunt test"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,7 @@
     "grunt-contrib-jasmine": "^1.1.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.1.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine": "^5.5.0"
   }
 }
